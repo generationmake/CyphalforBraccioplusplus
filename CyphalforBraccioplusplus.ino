@@ -42,7 +42,7 @@ using namespace uavcan::node;
 
 static uint8_t const EEPROM_I2C_DEV_ADDR = 0x50;
 
-static int const MCP2515_CS_PIN     = D20;
+static int const MCP2515_CS_PIN     = D17;
 static int const MCP2515_INT_PIN    = D6;
 
 static SPISettings const MCP2515x_SPI_SETTING{10*1000*1000UL, MSBFIRST, SPI_MODE0};
